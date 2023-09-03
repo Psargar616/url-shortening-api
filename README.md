@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Psargar616/url-shortening-api)
+- Live Site URL: [live site URL](https://psargar616.github.io/url-shortening-api/)
 
 ### Built with
 
