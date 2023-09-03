@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        background-color: hsl(255, 11%, 22%);
+        color: white;
+        outline: none;
+        border: none;
+        padding: 1rem;
+      }
+      .attribution a {
+        color: hsl(180, 66%, 49%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3ec8e7f301.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!--  navbar    -->
+      <nav class="navbar">
+        <a class="title-brand"><img src="./images/logo.svg" alt="" /></a>
+        <ul class="nav-menu">
+          <li class="nav-items">
+            <a href="#feature-sec" class="nav-link">Features</a>
+          </li>
+          <li class="nav-items">
+            <a href="#boost-sec" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-items">
+            <a href="#shortly" class="nav-link">Resources</a>
+          </li>
+
+          <li class="nav-items">
+            <a href="#" class="nav-link" id="login">Login</a>
+          </li>
+          <li class="nav-items">
+            <a href="#" class="nav-link" id="signBtn">Sign Up</a>
+          </li>
+        </ul>
+
+        <div class="hambergur-menu">
+          <!-- <i class="fa-solid fa-bars fa-lg"></i> -->
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- hero section -->
+      <section class="hero">
+       
+        <div class="hero-details">
+          <h2 class="hero-title">More than just shorter links</h2>
+          <p class="hero-txt">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="herobtn" type="submit">Get Started</button>
+        </div>
+        <div class="hero-img">
+          <img src="./images/illustration-working.svg"  alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+      <!-- stortly container -->
+      <section class="stortly-container">
+        <div class="input-shortly" id="shortly">
+          <div class="card">
+            <input type="text" placeholder=" Shorten a link here..." id="longurl"/>
+            <button  id="shorten">Shorten It!</button>
+          </div>
+        </div>
+        <div class="output show">
+
+          
+        </div>
+      </section>
+      <br /><br /><br />
+      <!-- advance stats -->
+      <section class="advance-stats">
+        <div class="advance-container">
+          <h3 class="advance-title">Advanced Statistics</h3>
+          <p class="adv-text">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+          <div class="features" id="feature-sec">
+            <!-- card1 -->
+            <div class="feature">
+              <div class="icon">
+                <img src="./images/icon-brand-recognition.svg" alt="" >
+              </div>
+             
+              <h3 class="brand-title">Brand Recognition</h3>
+              <p class="brand-txt">
+                Boost your brand recognition with each click. Generic links don’t
+                mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+            <!-- card 2 -->
+            <div class="feature">
+              <div class="icon">
+                <img src="./images/icon-detailed-records.svg" alt="">
+              </div>
+              
+              <h3 class="brand-title">Detailed Records</h3>
+              <p class="brand-txt">
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div class="feature">
+              <div class="icon">
+                <img src="./images/icon-fully-customizable.svg" alt="">
+              </div>
+             
+              <h3 class="brand-title">Fully Customizable</h3>
+              <p class="brand-txt">
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <!-- boost -->
+      <section class="boost" id="boost-sec">
+        <h3 class="boost-title">Boost your links today</h3>
+        <button class="boost-btn" > <a href="#shortly">Get Started</a></button>
+        
+      </section>
+
+      <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class=".footer-logo">
+          <img src="./images/logo-copy.svg" alt="">
+
+        </div>
+        <div class="footer-links1">
+          <p class="head">Feature</p>
+          <ul id="links">
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="footer-links2">
+
+          <p class="head">Company</p>
+          <ul id="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links3">
+          <p class="head">Resources</p>
+          <ul id="links">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="socials">
+          <img src="./images/icon-facebook.svg" alt="fb">
+          <img src="./images/icon-twitter.svg" alt="tw">
+          <img src="./images/icon-pinterest.svg" alt="pi">
+          <img src="./images/icon-instagram.svg" alt="ig">
+        </div>
+
+      </div>
+    </footer>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Pranjali Sargar</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
